@@ -1,0 +1,32 @@
+@media (max-width: 810px) {
+body{
+font-weight:  400;
+}
+.header{
+  /* background-color: aquamarine; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.header .menu li{
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+}
+@media (max-width: 600px) {
+  body{
+  font-weight:  400;
+  }
+  .header{
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header .menu{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  }
